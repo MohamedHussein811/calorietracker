@@ -15,28 +15,28 @@ git clone https://github.com/MohamedHussein811/calorietracker.git
 ## Client Side
 
 1. Navigate to the client directory:
-
+   ```bash
    cd client
-
+   ```
 2. Install dependencies:
-
+   ```bash
    npm install
-
+   ```
 3. Run the client:
-
+   ```bash
    npm run dev
-
+   ```
 ## Server Side
 
 1. Open a new terminal window/tab.
 2. Navigate to the server directory:
-```bash
+    ```bash
    cd server
-```
+    ```
 3. Install dependencies:
-```bash
+   ```bash
    npm install
-```
+    ```
 4. Run the server:
 
     If you don't have environment variables or your server doesn't rely on them for configuration, run: 
