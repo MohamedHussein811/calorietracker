@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import CalorieChart from "../CalorieChart/CalorieChart";
 import UserChart from "../UserChart/UserChart";
-
+import "./style.css"
 const FoodTrack = (props: { meal: { _id: string; username: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; description: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; calories: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; date: string; }; deleteMeal: (arg0: any) => void; }) => (
   <tr>
   <td>
@@ -72,7 +72,7 @@ const DisplayFoodList = () => {
               <h3 style={{ textAlign: "center", marginBottom: "15px" }}>
                 Calorie Journal
               </h3>
-              <table className="table" style={{ textAlign: "center" }}>
+              <table className="table table-responsive" style={{ textAlign: "center" }}>
                 <thead
                   className="thead"
                   style={{ backgroundColor: "#8661d1" }}
