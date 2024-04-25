@@ -12,28 +12,36 @@ To get started with the project, follow these steps:
 git clone https://github.com/MohamedHussein811/calorietracker.git
 ```
 
+## Client Side
+1. Navigate to the client directory:
+
+    cd client
+
 2. Install dependencies:
 
     npm install
 
-3. Navigate to the client directory:
-
-    cd client
-
-4. Run the client:
+3. Run the client:
 
     npm run dev
 
-5. Open a new terminal window/tab.
-6. Navigate to the server directory:
+
+## Server Side
+
+1. Open a new terminal window/tab.
+2. Navigate to the server directory:
 
     cd server
 
-7. Run the server:
+3. Install dependencies:
+
+    npm install
+
+4. Run the server:
 
     npm run start
 
-8. Change Database URL
+5. Change Database URL
 
     1. Navigate into Server Directory
     2. Open app.js
