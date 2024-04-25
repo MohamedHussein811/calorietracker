@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // port and DB config
-const DATABASE_CONNECTION = "mongodb+srv://gallerynexus91:tExd6B20wwCdWzPH@cluster0.k6ybqfy.mongodb.net/";
+const DATABASE_CONNECTION = process.env.MONGODB_URI;
 const PORT = process.env.PORT || 5000;
 
 // mongoose connection
