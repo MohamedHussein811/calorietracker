@@ -33,6 +33,12 @@ cd server
 
 npm run start
 
+8. Change Database URL
+
+    1. Navigate into Server Directory
+    2. Open app.js
+    3. Modify DATABASE_CONNECTION with your DB uri
+
 
 ## DONE!!!!
 
