@@ -2,8 +2,8 @@
 import { useState,useEffect, JSXElementConstructor, ReactElement, ReactNode, ReactPortal } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import CalorieChart from "../CalorieChart";
-import UserChart from "../UserChart";
+import CalorieChart from "../CalorieChart/CalorieChart";
+import UserChart from "../UserChart/UserChart";
 
 const FoodTrack = (props: { meal: { _id: string; username: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; description: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; calories: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; date: string; }; deleteMeal: (arg0: any) => void; }) => (
   <tr>

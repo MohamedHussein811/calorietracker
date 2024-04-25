@@ -3,10 +3,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./components/Navbar";
-import DisplayFoodList from "./components/DisplayFoodList";
-import EditFood from "./components/EditFood";
-import AddFood from "./components/AddFood";
-import AddUser from "./components/AddUser";
+import DisplayFoodList from "./components/DisplayFoodList/DisplayFoodList";
+import EditFood from "./components/EditFood/[id]/EditFood";
+import AddFood from "./components/AddFood/AddFood";
+import AddUser from "./components/AddUser/AddUser";
 
 function App() {
   return (
