@@ -41,7 +41,7 @@ git clone https://github.com/MohamedHussein811/calorietracker.git
 
     If you don't have environment variables or your server doesn't rely on them for configuration, run: 
     ```bash
-    npm run start.
+    npm run start
     ```
     If you are using environment variables, run:
     ```bash
