@@ -14,24 +14,24 @@ git clone https://github.com/MohamedHussein811/calorietracker.git
 
 2. Install dependencies:
 
-npm install
+    npm install
 
 3. Navigate to the client directory:
 
-cd client
+    cd client
 
 4. Run the client:
 
-npm run dev
+    npm run dev
 
 5. Open a new terminal window/tab.
 6. Navigate to the server directory:
 
-cd server
+    cd server
 
 7. Run the server:
 
-npm run start
+    npm run start
 
 8. Change Database URL
 
